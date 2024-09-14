@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "terror";
+    src: url("../fontes/TeRRoR_ByTe_True.ttf");
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(27, 27, 27);
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    min-height: 120px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header nav {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.808)
+}
+
+nav {
+    display: inline-block;
+    text-align: left;
+    background-color: black;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+
+nav > a {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+nav > a.tiktok {
+    background-color: blueviolet;
+}
+
+nav > a.tiktok:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: red;
+}
+
+header > h1 {
+    font-family: "terror", sans-serif ;
+    color: red;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px black;
+    font-weight: normal;
+
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main > h2 {
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    
+}
+
+main  img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    border-radius: 8px;
+    
+}
+
+main  p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+h3 {
+    margin: 20px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+p#aviso {
+    color: red;
+}
+
+a.download {
+    color: white;
+    font-size: 20px;
+    margin: 20px auto auto auto;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.download:hover {
+    border: solid 2px black;
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+ 
+
+main > p#pix {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
